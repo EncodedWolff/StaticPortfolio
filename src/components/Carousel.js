@@ -20,7 +20,7 @@ class Carousel extends React.Component {
                     subTitle: 'Very short description',
                     imgSrc: basicImage,
                     link: 'This will be a link to the project',
-                    selected: false
+                    selected: true
                 },
                 {
                     id: 1,

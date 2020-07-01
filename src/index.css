@@ -79,13 +79,25 @@ code {
 }
 
 .nashville{
+  background-position: center;
+  vertical-align: middle;
   background-size: cover;
-  background-image: url('./assets/images/downtown-nashville.jpg');
+  background-image: url('./assets/images/DowntownNashvilleBanner.jpeg');
 }
 
 .footer{
+  margin-top: 50px;
   position: fixed;
   width: 100%;
   bottom: 0;
   text-align: center;
+}
+
+.header-content{
+  /* color: #1e64e8; */
+  color: white;
+}
+
+.bigger-text{
+  font-size: 3em;
 }

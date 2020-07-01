@@ -28,7 +28,7 @@ class App extends React.Component {
       home: {
         title: 'Joseph Wolff',
         subTitle: 'Full Stack Web Developer',
-        selfDescription: 'Forward thinking, always learning'
+        selfDescription: 'Forward Thinking, Always Learning'
       },
       about: {
         title: 'About me'
@@ -101,7 +101,9 @@ class App extends React.Component {
               userMessage={this.state.contact.userMessage}
             />}
           />
+          <div>
 
+          </div>
           <Footer />
 
         </Container>

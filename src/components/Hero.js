@@ -17,23 +17,23 @@ library.add(
 
 function Hero(props) {
     return (
-        <Jumbotron className="nashville text-light jumbotron-fluid">
+        <Jumbotron className="nashville header-content jumbotron-fluid">
             <Container>
                 <Row>
                     <Col className="justify-content-center" lg={4} md={8} xs={12}>
-                        {props.title && <h1 className="font-weight-bolder">{props.title}</h1>}
+                        {props.title && <h1 className="bigger-text font-weight-bolder">{props.title}</h1>}
                         {props.subTitle && <h4 className="font-weight-light">{props.subTitle}</h4>}
-                        {props.selfDescription && <p className="font-weight-light">{props.selfDescription}</p>}
+                        {props.selfDescription && <p>{props.selfDescription}</p>}
                     </Col>
                     <Col>
                         <a href="https://www.stackoverflow.com/users/13723727/joseph-wolff">
-                            <FontAwesomeIcon icon={faStackOverflow} size="3x" className=" text-light" />
+                            <FontAwesomeIcon icon={faStackOverflow} size="3x" className="header-content" />
                         </a>
                         <a href="https://www.github.com/WolffJosephN">
-                            <FontAwesomeIcon icon={faGithub} size="3x" className="text-light" />
+                            <FontAwesomeIcon icon={faGithub} size="3x" className="header-content" />
                         </a>
                         <a href="https://www.linkedin.com/in/wolffjosephn/">
-                            <FontAwesomeIcon icon={faLinkedin} size="3x" className="text-light" />
+                            <FontAwesomeIcon icon={faLinkedin} size="3x" className="header-content" />
                         </a>
                     </Col>
                 </Row>
