@@ -3,6 +3,17 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faStackOverflow,
+    faGithub,
+    faLinkedin
+} from '@fortawesome/free-brands-svg-icons';
+
+library.add(
+    faStackOverflow
+);
 
 function Hero(props) {
     return (
@@ -14,7 +25,19 @@ function Hero(props) {
                         {props.subTitle && <h4 className="font-weight-light">{props.subTitle}</h4>}
                         {props.selfDescription && <p className="font-weight-light">{props.selfDescription}</p>}
                     </Col>
+                    <Col>
+                        <a href="https://www.stackoverflow.com/users/13723727/joseph-wolff">
+                            <FontAwesomeIcon icon={faStackOverflow} size="3x" className=" text-light" />
+                        </a>
+                        <a href="https://www.github.com/WolffJosephN">
+                            <FontAwesomeIcon icon={faGithub} size="3x" className="text-light" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/wolffjosephn/">
+                            <FontAwesomeIcon icon={faLinkedin} size="3x" className="text-light" />
+                        </a>
+                    </Col>
                 </Row>
+
             </Container>
         </Jumbotron>
     );

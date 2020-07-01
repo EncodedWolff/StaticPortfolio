@@ -73,17 +73,19 @@ code {
 
 .jw-style{
   background-color: #313f59!important;
+  height: 100%;
   padding: 0;
   border: 0;
 }
 
 .nashville{
+  background-size: cover;
   background-image: url('./assets/images/downtown-nashville.jpg');
 }
 
 .footer{
   position: fixed;
-  width: 50%;
+  width: 100%;
   bottom: 0;
   text-align: center;
 }

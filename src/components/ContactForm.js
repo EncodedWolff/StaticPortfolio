@@ -25,7 +25,7 @@ class ContactForm extends React.Component {
             disabled: true
         });
 
-        Axios.post('http://52.90.99.56:3030/api/email', this.state)
+        Axios.post('https://52.90.99.56:3030/api/email', this.state)
             .then(res => {
                 if (res.data.success) {
                     this.setState({

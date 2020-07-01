@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 
 function ContactPage(props) {
     return (
-        <div>
+        <div className="vh-100">
             <Hero title={props.title} />
 
             <ContactForm />

@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage';
 import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
 
+
 import './App.css';
 
 class App extends React.Component {
@@ -47,7 +48,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container className="p-0 jw-style vh-100" fluid={true}>
+        <Container className="p-0 jw-style" fluid={true}>
 
           <Navbar bg="transparent" expand="lg">
 
@@ -56,7 +57,7 @@ class App extends React.Component {
             </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
+            <Navbar.Collapse id="navbar-toggle" >
 
               <Nav className="ml-auto">
                 <Link className="nav-link text-light" to="/">Home</Link>
