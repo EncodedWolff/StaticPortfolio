@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Card from './Card';
 
 import basicImage from '../assets/images/basicImage.jpg';
-import image2 from '../assets/images/image2.jpg';
+import HoloTagWorld from '../assets/images/HoloTagWorld.png';
 //import ImageName from '../assets/images/ImageName'; ...
 //remove
 
@@ -25,9 +25,9 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'HoloTag World',
-                    subTitle: 'Very short description',
-                    imgSrc: image2,
-                    link: 'This will eventually be a link to the website',
+                    subTitle: 'Static webpage about a new adventure platfrom that is in development.',
+                    imgSrc: HoloTagWorld,
+                    link: 'https://sharp-morse-f2b7ab.netlify.app/',
                     selected: false
                 },
                 {
