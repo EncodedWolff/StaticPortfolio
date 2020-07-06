@@ -11,6 +11,7 @@ function HomePage(props) {
             <Hero title={props.title} subTitle={props.subTitle} selfDescription={props.selfDescription} />
             <Carousel />
             <br />
+            <br />
         </div>
     );
 

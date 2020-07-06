@@ -101,9 +101,7 @@ class App extends React.Component {
               userMessage={this.state.contact.userMessage}
             />}
           />
-          <div>
-
-          </div>
+          <br />
           <Footer />
 
         </Container>

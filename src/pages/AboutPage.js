@@ -9,7 +9,7 @@ function AboutPage(props) {
         <div className="text-light vh-100">
             <Hero title={props.title} />
 
-            <Content>
+            <Content >
                 <h3>Who am I?</h3>
                 <p>
                     My name is Joseph Wolff. I am a Full Stack Web Developer based out of the Nashville, TN area.
@@ -55,11 +55,13 @@ function AboutPage(props) {
                     potential hangups in the development process, unless they are necessary to the success of the project.
                 </p>
                 <br />
-                <p>
+                <p className="text-dark">
                     I would like to eventually learn more about machine learning and AI, as I find them very interesting and
                     they could be valuable to my own skillset in the future. I feel like most applications will
                     eventually use some form of AI to advance their businesses and improve efficiency.
                 </p>
+                <br />
+                <br />
             </Content>
         </div>
     );

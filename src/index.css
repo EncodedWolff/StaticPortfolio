@@ -87,7 +87,8 @@ code {
 }
 
 .footer{
-  margin-top: 50px;
+  padding-top: 50px;
+  margin-top: 10%;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -101,4 +102,13 @@ code {
 
 .bigger-text{
   font-size: 3em;
+}
+
+#form{
+  width: 100%;
+  height: auto;
+}
+
+br {
+  height: 15%;
 }

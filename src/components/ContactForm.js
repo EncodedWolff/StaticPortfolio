@@ -60,8 +60,9 @@ class ContactForm extends React.Component {
     render() {
         return (
             <div>
-                <Content >
-                    <Form className="text-light" onSubmit={this.handleSubmit} onChange={this.handleFieldChange}>
+                <Content className="vh-100">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeecPUm37qsQRdEtJR5LBkU-ihUf0Sl9z7252jwYrvFcE4XXA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    {/* <Form className="text-light" onSubmit={this.handleSubmit} onChange={this.handleFieldChange}>
                         <Form.Group>
                             <Form.Label htmlFor="full-name">Full Name</Form.Label>
                             <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
@@ -83,7 +84,7 @@ class ContactForm extends React.Component {
 
                         {this.state.emailSent === true && <p className="d-inline success-msg">Contact submission sent</p>}
                         {this.state.emailSent === false && <p className="d-inline failed-msg">Contact submission failed</p>}
-                    </Form>
+                    </Form> */}
                 </Content>
             </div>
         );
