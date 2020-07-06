@@ -55,7 +55,7 @@ function AboutPage(props) {
                     potential hangups in the development process, unless they are necessary to the success of the project.
                 </p>
                 <br />
-                <p className="text-dark">
+                <p>
                     I would like to eventually learn more about machine learning and AI, as I find them very interesting and
                     they could be valuable to my own skillset in the future. I feel like most applications will
                     eventually use some form of AI to advance their businesses and improve efficiency.
