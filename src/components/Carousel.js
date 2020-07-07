@@ -4,10 +4,10 @@ import Row from 'react-bootstrap/Row';
 
 import Card from './Card';
 
+import BlankBlog from '../assets/images/BlankBlog.png';
+import NashFlowScreenshot from '../assets/images/NashFlowScreenshot.png';
 import basicImage from '../assets/images/basicImage.jpg';
 import HoloTagWorld from '../assets/images/HoloTagWorld.png';
-//import ImageName from '../assets/images/ImageName'; ...
-//remove
 
 class Carousel extends React.Component {
     constructor(props) {
@@ -17,9 +17,9 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Blank_Blog',
-                    subTitle: 'Very short description',
-                    imgSrc: basicImage,
-                    link: 'This will be a link to the project',
+                    subTitle: 'Participated in a group project in which we built a full stack blogging application. The application was designed to be reminiscent of the earlier days of the internet. Focusing on simplicity in both design and overall functionality. ',
+                    imgSrc: BlankBlog,
+                    link: 'https://github.com/Woz-U-Group-Projects/team-commandline',
                     selected: true
                 },
                 {
@@ -33,9 +33,9 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'NashFlow',
-                    subTitle: 'Very short description',
-                    imgSrc: basicImage,
-                    link: 'This will be a link to the project',
+                    subTitle: 'Currently in development, this application is designed to improve workflow within a sales environment. It is used to visualize customer location on a map, allowing for mapping sales routes for in-home/in-store sales. This application also allows for searching for different types of data, specific customers, etc., and generates information about the given selection.',
+                    imgSrc: NashFlowScreenshot,
+                    link: 'https://github.com/WolffJosephN/nash-flow',
                     selected: false
                 }
             ]
