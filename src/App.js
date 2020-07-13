@@ -22,7 +22,6 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Blog', path: '/blog/posts' },
         { title: 'Contact', path: '/contact' }
       ],
       home: {
@@ -32,9 +31,6 @@ class App extends React.Component {
       },
       about: {
         title: 'About me'
-      },
-      blog: {
-        title: 'Welcome to my blog!'
       },
       contact: {
         title: "Let's connect:",
